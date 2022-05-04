@@ -18,29 +18,30 @@
       <p>Time is on your side.</p>
 
       <form>
-        <div class="sign-up-fields">
+        <div class="label-and-inputs">
           <p>Let's do this!</p>
+          <div class="sign-up-fields">
+            <div class="left-inputs">
+              <label for="first_name">First Name*</label>
+              <input type="text" id="first_name" required>
 
-          <div class="left-inputs">
-            <label for="first_name">First Name*</label>
-            <input type="text" id="first_name" required>
+              <label for="email">Email*</label>
+              <input type="email" id="email" required>
 
-            <label for="email">Email*</label>
-            <input type="email" id="email" required>
+              <label for="pass">Password*</label>
+              <input type="password" id="pass" autocomplete="new-password" required>
+            </div>
 
-            <label for="pass">Password*</label>
-            <input type="password" id="pass" autocomplete="new-password" required>
-          </div>
+            <div class="right-inputs">
+              <label for="last_name">Last Name*</label>
+              <input type="text" id="last_name" required>
 
-          <div class="right-inputs">
-            <label for="last_name">Last Name*</label>
-            <input type="text" id="last_name" required>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone">
 
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone">
-
-            <label for="pass-confirm">Confirm Password*</label>
-            <input type="password" id="pass-confirm" required>
+              <label for="pass-confirm">Confirm Password*</label>
+              <input type="password" id="pass-confirm" required>
+            </div>
           </div>
         </div>
 
