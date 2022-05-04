@@ -2,6 +2,10 @@ html {
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+}
+
 *,
 *::before,
 *::after {
@@ -11,4 +15,45 @@ html {
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  display: flex;
+}
+
+header {
+  background: center / cover no-repeat url("../img/background-image-compressed.jpg");
+  flex: 1;
+}
+
+.odin-banner-container {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+header img {
+  max-width: 140px;
+}
+
+header a {
+  color: white;
+}
+
+main {
+  background-color: #F2F2F2;
+  flex: 2;
+}
+
+.label-and-inputs {
+  background-color: white;
+}
+
+.sign-up-fields {
+  display: flex;
+}
+
+.left-inputs,
+.right-inputs {
+  display: flex;
+  flex-direction: column;
 }
