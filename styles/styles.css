@@ -28,20 +28,38 @@ body {
 
 header {
   background: center / cover no-repeat url("../img/background-image-compressed.jpg");
+  display: flex;
   flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 180px;
 }
 
 .odin-banner-container {
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
 }
 
 header img {
-  max-width: 140px;
+  max-width: 80px;
+}
+
+header p {
+  text-align: center;
 }
 
 header a {
   color: white;
+}
+
+h1 {
+  font-family: 'norse-bold', Verdana, Helvetica, sans-serif;
+  font-size: 5em;
 }
 
 main {
