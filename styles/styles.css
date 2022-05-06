@@ -96,7 +96,14 @@ main p:first-child {
 }
 
 button {
+  background-color: #596D48;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: 40px;
   margin: 0 0 30px 40px;
+  width: 200px;
 }
 
 .label-and-inputs {
