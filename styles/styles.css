@@ -114,22 +114,20 @@ button {
 }
 
 .sign-up-fields {
+  column-gap: 60px;
   display: flex;
-}
-
-.left-inputs,
-.right-inputs {
-  display: flex;
-  flex-direction: column;
-}
-
-.left-inputs input {
-  margin-right: 60px;
+  flex-wrap: wrap;
+  max-width: 700px;
 }
 
 .sign-up-fields label {
   font-size: 0.8rem;
   text-transform: uppercase;
+}
+
+.sign-up-fields div {
+  display: flex;
+  flex-direction: column;
 }
 
 input {
