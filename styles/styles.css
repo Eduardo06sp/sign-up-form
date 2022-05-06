@@ -126,9 +126,25 @@ button {
 }
 
 input {
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
   font-size: 1rem;
   height: 30px;
   margin-bottom: 20px;
   padding-left: 4px;
   width: 250px;
+}
+
+input:focus {
+  border: 1px solid #999bf4;
+  box-shadow: 5px 5px 10px lightgrey;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+input:invalid + span::before {
+  color: red;
+  content: '*Passwords do not match'
 }
